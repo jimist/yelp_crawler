@@ -7,6 +7,7 @@ import hashlib
 import time
 
 from Models import init_database
+from config import DATABASE_URI
 
 class DataProviderService:
 	session = None
@@ -19,7 +20,7 @@ class DataProviderService:
 
 	@staticmethod
 	def startSession():
-		#engine = import database uri from config.py
+		engine = DATABASE_URI
 		DataProviderService.engine = engine
 		DataProviderService.DBEngine = create_engine(engine)
 		db_session = sessionmaker(bind=DataProviderService.DBEngine)
