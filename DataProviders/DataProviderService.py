@@ -1,13 +1,14 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
-
-import datetime
-import hashlib
-import time
+# from sqlalchemy.ext.declarative import declarative_base
+#
+# import datetime
+# import hashlib
+# import time
 
 from Models import init_database
 from config import DATABASE_URI
+
 
 class DataProviderService:
 	session = None
