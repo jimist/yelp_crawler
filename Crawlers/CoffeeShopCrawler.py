@@ -1,11 +1,12 @@
-import Crawler
+import Crawlers.Crawler as Crawler
+
 
 class CoffeeShopCrawler(Crawler):
 	def __init__(self, city):
 		super(CoffeeShopCrawler, self).__init__()
 		self.city = city
 
-	def getListByCity():
+	def getListByCity($city):
 		print("get List By City")
 
 	def getSingleDetails(name):
