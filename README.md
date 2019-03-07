@@ -1,4 +1,6 @@
-# yelp_crawler
+## Yelp London's Coffeshops and Restaurants
+
+### Introduction
 
 this crawler was initially developed to crawl **Yelp London's Coffeshops and Restaurants**
 
@@ -6,7 +8,7 @@ The crawler was mostly developed By Mr. Aliraza Imani and I (@jeemist) supervise
 
 We **do not take responsibility** for any harmful usage of this repository considering that our main purpose for fetching Yelp's data was for academic research in Machine Learning Field
 
-***
+### A guide through our code
 
 If you want to use this code, make sure of making a virtual enviroment under the *env* directory
 
@@ -18,7 +20,7 @@ In order to keep this projec scalable we made the **Crawler** directory for our 
 
 If you wanted to develop this repository for your own, try to keep your database code in DataProviders directory's files
 
-***
+### Contact Information
 
 any comments on this code or our approach to this problems is welcome; you can contact us via:
 
