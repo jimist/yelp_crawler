@@ -4,7 +4,7 @@
 
 this crawler was initially developed to crawl **Yelp London's Coffeshops and Restaurants**
 
-The crawler was mostly developed By Mr. Aliraza Imani and I (@jeemist) supervised the development process for keeping the project structure proffesional and easy to scale
+The crawler was mostly developed By [Mr. Aliraza Imani](https://linkedin.com/in/alireza-imani) and I (@jeemist) supervised the development process for keeping the project structure proffesional and easy to scale
 
 We **do not take responsibility** for any harmful usage of this repository considering that our main purpose for fetching Yelp's data was for academic research in Machine Learning Field
 
